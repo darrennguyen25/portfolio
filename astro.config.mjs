@@ -23,6 +23,7 @@ export default defineConfig({
     icon(),
   ],
   output: "static",
+  site: "https://darrennguyen25-portfolio.vercel.app",
   adapter: vercel({
     webAnalytics: {
       enabled: true,
