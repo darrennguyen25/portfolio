@@ -1,0 +1,62 @@
+---
+import "@fontsource-variable/dm-sans";
+import Navbar from "../components/navbar.astro";
+import { ViewTransitions } from "astro:transitions";
+
+interface Props {
+    title: string;
+}
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Darren Nguyen Portfolio" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <title>{title}</title>
+    </head>
+    <body class="w-full p-6">
+        <Navbar />
+
+        <slot />
+    </body>
+</html>
+
+<style is:global>
+    code {
+        counter-reset: line;
+    }
+
+    code > [data-line]::before {
+        counter-increment: line;
+        content: counter(line);
+
+        /* Other styling */
+        display: inline-block;
+        width: 1rem;
+        margin-right: 2rem;
+        text-align: right;
+        color: gray;
+    }
+
+    code[data-line-numbers-max-digits="2"] > [data-line]::before {
+        width: 2rem;
+    }
+
+    code[data-line-numbers-max-digits="3"] > [data-line]::before {
+        width: 3rem;
+    }
+
+    [data-rehype-pretty-code-title] {
+        background-color: #212431;
+        border-top-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        height: 60px;
+        color: #eee;
+        margin-bottom: -1.5rem;
+        padding: 0.5rem 0.5rem 0.5rem 1.5rem;
+    }
+</style>
