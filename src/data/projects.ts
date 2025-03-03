@@ -8,7 +8,7 @@ export const projectsData = [
   {
     title: "CPP Biology Department Web Scraper",
     description:
-      "A web scraper to find faculty members within the CPP Biology Department using Python",
+      "A web scraper to find faculty members within the CPP Biology Department using Python, BeautifulSoup and MongoDB",
     href: "https://github.com/darrennguyen25/bio_scraper",
   },
   {
