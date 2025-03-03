@@ -26,7 +26,7 @@ export default defineConfig({
   site: "https://darrennguyen25-portfolio.vercel.app",
   adapter: vercel({
     webAnalytics: {
-      enabled: false,
+      enabled: true,
     },
   }),
 });
