@@ -1,3 +1,3 @@
 # Portfolio
 
-Built with Astro, TypeScript, Tailwind and Vercel Analytics.
+Built with Astro, TypeScript, and TailwindCSS
