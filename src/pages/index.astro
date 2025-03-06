@@ -37,6 +37,56 @@ const imageFiles = await Astro.glob("/src/static/images/gallery/*{jpeg,jpg,png,g
                 <Link href="https://drive.google.com/file/d/189JyTYH7li0BuWTVVCU3uNi7ibH-6Ycn/view?usp=sharing" icon="tabler:pdf" label="Resume" />
             </div>
         </div>
+        <div class="flex flex-col items-center justify-center max-w-2xl p-6 mx-auto my-8 border rounded-md h-fit border-zinc-100">
+            <h1 class="mt-8 mb-2 text-4xl tracking-wide text-center font-cal font text-zinc-800">Skills</h1>
+            <div class="flex flex-wrap justify-center gap-3 my-6">
+                <Link 
+                    href="https://www.python.org/"
+                    icon="tabler:brand-python"
+                    label="Python"
+                />
+                <Link 
+                    href="https://html.spec.whatwg.org/multipage/"
+                    icon="tabler:brand-html5"
+                    label="HTML"
+                />
+                <Link 
+                    href="https://www.w3.org/Style/CSS/Overview.en.html"
+                    icon="tabler:brand-css3"
+                    label="CSS"
+                />
+                <Link 
+                    href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                    icon="tabler:brand-javascript"
+                    label="JavaScript"
+                />
+                <Link 
+                    href="https://www.typescriptlang.org/"
+                    icon="tabler:brand-typescript"
+                    label="TypeScript"
+                />
+                <Link 
+                    href="https://nodejs.org/en"
+                    icon="tabler:brand-nodejs"
+                    label="Node.js"
+                />
+                <Link 
+                    href="https://react.dev/"
+                    icon="tabler:brand-react"
+                    label="React"
+                />
+                <Link 
+                    href="https://www.iso.org/standard/76583.html"
+                    icon="tabler:sql"
+                    label="SQL"
+                />
+                <Link 
+                    href="https://www.mongodb.com"
+                    icon="tabler:brand-mongodb"
+                    label="MongoDB"
+                />
+            </div>
+        </div>
         <div class="max-w-6xl mx-auto columns-3xs">
             {
                 imageFiles.map((img) => (
