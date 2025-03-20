@@ -17,6 +17,11 @@ export const projectsData = [
     href: "https://github.com/darrennguyen25/NGCP-UAV-Project",
   },
   {
+    title: "Library",
+    description: "Small library app built with JavaScript and HTML/CSS",
+    href: "https://github.com/darrennguyen25/library",
+  },
+  {
     title: "Blackjack App",
     description: "Blackjack mobile app built in Kotlin and Android Studio",
     href: "https://github.com/darrennguyen25/Blackjack",
