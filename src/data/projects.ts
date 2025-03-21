@@ -8,7 +8,7 @@ export const projectsData = [
   {
     title: "Expense Tracker",
     description:
-      "A full-stack app to keep track of your balance and expenses built with TypeScript, React, Next.js, Neon Postgres, Prisma ORM, and Clerk Authentication",
+      "A full-stack app to keep track of your income and expenses built with TypeScript, React, Next.js, Neon Postgres, Prisma ORM, and Clerk Authentication",
     href: "https://github.com/darrennguyen25/expense-tracker",
   },
   {
