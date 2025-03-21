@@ -6,9 +6,15 @@ export const projectsData = [
     href: "https://github.com/darrennguyen25/docs-clone",
   },
   {
-    title: "CPP Biology Department Web Scraper",
+    title: "Expense Tracker",
     description:
-      "A web scraper to find faculty members within the CPP Biology Department using Python, BeautifulSoup and MongoDB",
+      "A full-stack app to keep track of your balance and expenses built with TypeScript, React, Next.js, Neon Postgres, Prisma ORM, and Clerk Authentication",
+    href: "https://github.com/darrennguyen25/expense-tracker",
+  },
+  {
+    title: "CPP Biology Search Engine",
+    description:
+      "A search engine to find faculty members within the CPP Biology Department using Python, BeautifulSoup and MongoDB",
     href: "https://github.com/darrennguyen25/bio_scraper",
   },
   {
